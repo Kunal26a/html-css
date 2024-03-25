@@ -1,0 +1,66 @@
+p{
+  font-family: arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.main-div{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 20px;
+
+}
+.cat-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 8px;
+}
+.mutual-friend-row{
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  column-gap:5px;
+  height:30px;
+  margin-bottom: 10px;
+}
+
+.friends {
+  color: rgb(100, 100, 100);
+  margin-top:4px;
+  margin-bottom: 8px;
+  margin-left: 8px;
+}
+.add-button {
+  background-color: rgb(24, 119, 242);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  margin-left: 8px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.add-button:hover {
+  opacity: 0.8;
+}
+.add-button:active {
+  opacity: 0.6;
+}
+.profile-id{
+  box-shadow: 0px 0px 6px rgb(0, 0, 0, 0.3);
+}
+.dog-pic{
+  width:30px;
+  height:30px;
+  object-fit: cover;
+  border-radius:50%;
+  margin-bottom:10px; 
+  margin-left:8px;
+}

@@ -1,0 +1,38 @@
+.input-name,
+.last-name{
+  font-size:15px;
+  width:100px;
+  padding:8px 10px;
+  border-color: rgb(200,200,200);
+  border-style:solid;
+  border-radius:8px;
+  border-width:1.5px;
+}
+.email{
+  font-size:15px;
+  display:block;
+  margin-top:8px;
+  margin-bottom:8px;
+  width:200px;
+  padding-top:8px;
+  padding-bottom:8px;
+  border-color: rgb(200,200,200);
+  padding-left:8px;
+  padding-right:38px;
+  border-radius:8px;
+  border-style:solid;
+  border-width:1.5px;
+}
+.signup-button{
+  background-color:rgb(8, 123, 224);
+  font-size:15px;
+  font-weight:bold;
+  color:white;
+  border:none;
+  width:250px;
+  padding-top:8px;
+  padding-bottom:8px;
+  border-radius:8px;
+  text-align:center;
+  cursor:pointer;
+}

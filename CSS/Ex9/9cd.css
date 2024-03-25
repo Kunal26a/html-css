@@ -1,0 +1,30 @@
+p{
+  font-family: Arial;
+}
+.div-box{
+  border-color:black;
+  border-style: solid;
+  width:300px;
+  border-width:1px;
+  padding-left:15px;
+  font-family:arial;
+  padding-bottom:20px;
+}
+.div-2{
+  border-style: solid;
+  margin-top:40px;
+  background-color: rgba(0, 0, 0, 0.93);
+  color:white;
+  width: 350px;
+  padding-left:15px;
+  padding-right: 30px;
+  vertical-align: middle;
+}
+.title{
+  font-size:25px;
+  font-weight: bold;
+}
+.info{
+  color:rgba(255, 255, 255, 0.503);
+  width:350px;
+}

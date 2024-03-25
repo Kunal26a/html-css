@@ -1,0 +1,55 @@
+p{
+  font-family: arial;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+img{
+  width:60px;
+  height:60px;
+  object-fit:cover;
+  border-radius: 50%;
+  margin-right:15px;
+  cursor: pointer;
+}
+.div-1{
+  width:100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.profile{
+  margin-right:100px;
+}
+.follow-button{
+  border:none;
+  background-color: rgb(43, 143, 238);
+  color:white;
+  font-size:15px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:13px;
+  padding-right:13px;
+  font-weight:700;
+  font-family: arial;
+  border-radius:5px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.follow-button:hover{
+  opacity:0.8;
+}
+.follow-button:active{
+  opacity:0.6;
+}
+.profile-name{
+  font-weight: bold;
+  margin-bottom:5px;
+}
+.profile-tag,
+.profile-type{
+  color: rgb(150, 150, 150);
+}
+.profile-tag{
+  width:200px;
+}

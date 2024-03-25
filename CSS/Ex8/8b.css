@@ -1,0 +1,10 @@
+.content{
+  width:200px;
+  display:inline-block;
+  vertical-align: middle;
+}
+.yes-button,
+.no-button{
+  vertical-align: middle;
+  cursor:pointer;
+}

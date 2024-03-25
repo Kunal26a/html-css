@@ -1,0 +1,24 @@
+body{
+  padding-bottom: 1000px;
+}
+.shirt-img{
+  height: 300px;
+  width:300px;
+  object-fit: cover;
+}
+.img-container{
+  height: 300px;
+  width: 300px;
+  position: relative;
+  padding: 0px 0px;
+}
+.discount-container {
+  position: absolute;
+  font-family: arial;
+  background-color: black;
+  color:white;
+  font-size: 14px;
+  padding:5px 10px;
+  top:10px;
+  right:0px;
+}

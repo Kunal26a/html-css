@@ -1,0 +1,45 @@
+.request{
+  font-size:40px;
+  font-family:arial;
+  margin-top:10px;
+  margin-bottom:25px;
+}
+.location,
+.destination{
+  display:block;
+  font-size:15px;
+  width:350px;
+  font-family: arial;
+  padding-top:8px;
+  padding-bottom:8px;
+  padding-left:15px;
+  border:none;
+  background-color: rgb(240, 240, 240);
+  margin-bottom:5px;
+}
+.destination{
+  margin-bottom:25px;
+}
+
+.request-button{
+  background-color:black;
+  color:white;
+  padding:12px 15px;
+  border-style:solid;
+  font-weight:500;
+  cursor:pointer;
+  transition:opacity 0.15s;
+}
+
+.request-button:hover{
+  opacity:0.8;
+}
+.schedule-button{
+  background-color: rgb(240, 240, 240);
+  color:black;
+  border:none;
+  padding:14px 25px;
+  font-weight:500;
+  cursor:pointer;
+  transition:opacity 0.15s;
+}

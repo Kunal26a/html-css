@@ -1,0 +1,56 @@
+body{
+  padding-bottom: 1000px;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  height:60px;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top:0;
+  right:0;
+  left:0;
+  box-shadow: 0 0 5px rgb(0,0,0,0.25);
+}
+.left-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 60px;
+}
+.right-section{
+  margin-right:60px;
+}
+.cat-img{
+  height:40px;
+  object-fit: cover;
+  width:40px;
+  border-radius: 50%;
+  margin-right:10px;
+}
+.cat-name{
+  font-family: arial;
+  font-weight: bold;
+}
+.add-button{
+  background-color: rgb(24,119,242);
+  border-style: none;
+  color: white;
+  font-style: arial;
+  font-weight: bold;
+  padding:10px 10px;
+  border-radius: 5px;
+  margin-right:6px;
+  cursor: pointer;
+}
+.message-button{
+  background-color:rgb(230,230,230);
+  border-style: none;
+  color: black;
+  font-style: arial;
+  font-weight: bold;
+  padding:10px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}

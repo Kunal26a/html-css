@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flexbox Practice</title>
+  </head>
+  <body style="padding-bottom:500px;"">
+    <div style="display: flex; flex-direction: row">
+      <div style="background-color: lightblue">div1-kunal</div>
+      <div style="background-color: lightpink">
+        div2
+        <p>kunal</p>
+      </div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 30px">
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightpink; flex: 1">flex:1</div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 30px">
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightpink; flex: 1">flex:1</div>
+      <div style="background-color: lightblue; flex: 2">flex:2</div>
+    </div>
+
+    <!-- Differnces between Flexbox and grid is:-
+1. grid has more rigid layout but flexbox has a flexible layout suppose
+if we replace the elements inside the main div i.e flex:1 with 100px 
+their properties do not change  -->
+
+    <div style="display: flex; flex-direction: row; margin-top: 30px">
+      <div style="background-color: lightpink; flex: 1">flex:1</div>
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightgray; flex: 2">flex:2</div>
+    </div>
+
+    <div style="margin-top: 30px; display: flex; flex-direction:column;width:100px">
+      <div style="background-color: lightblue;">div1-kunal</div>
+      <div style="background-color: lightpink;">div2</div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 30px;
+    height:70px;border:solid;border-width:2px;justify-content:center">
+      <div style="background-color: lightpink;width:100px">100px</div>
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightgray; width:100px">100px</div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 30px;
+    height:70px;border:solid;border-width:2px;justify-content:space-between">
+      <div style="background-color: lightpink;width:100px">100px</div>
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightgray; width:100px">100px</div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 30px;
+    height:70px;border:solid;border-width:2px;justify-content:space-between;
+    align-items:center;">
+      <div style="background-color: lightpink;width:100px">100px</div>
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightgray; width:100px">100px</div>
+    </div>
+    <!-- Default vlaue of align-items is strecth -->
+  </body>
+</html>
