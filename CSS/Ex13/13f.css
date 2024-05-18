@@ -13,6 +13,7 @@ div{
   width:50px;
   object-fit:cover;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .tweet{
@@ -24,6 +25,7 @@ div{
 .tweet-header{
   display: flex;
   flex-direction: row;
+  cursor: pointer;
 }
 
 .tweet-column{
@@ -63,10 +65,12 @@ div{
   width:125px;
   height:100px;
   background-color:rgb(200,200,200) ;
+  cursor: pointer;
 }
 
 .video-info-column{
   padding-left:15px;
+  cursor: pointer;
 }
 
 .video-website{
